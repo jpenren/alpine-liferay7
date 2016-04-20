@@ -11,4 +11,4 @@ RUN wget -P /tmp/ http://downloads.sourceforge.net/project/lportal/Liferay%20Por
 
 EXPOSE 8080
 
-ENTRYPOINT /opt/liferay-portal-7.0-ce-ga1/tomcat-8.0.32/bin/startup.sh
+CMD ["/opt/liferay-portal-7.0-ce-ga1/tomcat-8.0.32/bin/catalina.sh", "run"]
