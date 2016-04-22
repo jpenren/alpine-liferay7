@@ -10,7 +10,7 @@ docker run -d -p 8080:8080 jpenren/alpine-liferay7
 ```
 
 Roadmap:
-- Externalize database, currently H2
+- Externalize database, currently Hypersonic
 - Share configuration with host (portal-ext.properties)
 - Store data (document_library, elasticsearh) on a data volume container
 
