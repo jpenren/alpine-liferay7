@@ -1,13 +1,14 @@
 # alpine-liferay7
 Alpine + OpenJDK 8 + Liferay 7
 
-(Not still ready for production)
+(Not yet ready for production)
 
 Usage:
 
 ```
 docker run -d -p 8080:8080 jpenren/alpine-liferay7
 ```
+
 
 Roadmap:
 - Externalize database, currently Hypersonic
